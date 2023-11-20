@@ -9,6 +9,7 @@
 
     <?php 
         include 'sanpham.php';
+        include 'model/nhanvien.php';
 
         $arrSanphams = array();
         $sp1 = new SanPham('sp 1', 500, 'https://icdn.dantri.com.vn/thumb_w/640/2021/03/09/fpt-polytechnic-nhan-rong-mo-hinh-pho-thong-cao-dang-tren-toan-quocdocx-1615246307598.png');
